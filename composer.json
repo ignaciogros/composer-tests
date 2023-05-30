@@ -1,6 +1,7 @@
 {
     "name": "ignaciogros/composer-tests",
     "type": "library",
+    "version": "1.0",
     "description": "Just an example",
     "license": "MIT",
     "minimum-stability": "dev",
