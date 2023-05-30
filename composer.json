@@ -1,6 +1,7 @@
 {
-    "name": "ignaciogros/composer-tests",
-    "require": {
-        "ignaciogros/composer-tests": "dev-master"
-    }
+    "name": "ignaciogros/test",
+    "type": "library",
+    "description": "Just an example",
+    "license": "MIT",
+    "minimum-stability": "dev"
 }
