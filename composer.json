@@ -1,6 +1,6 @@
 {
     "name": "ignaciogros/composer-tests",
-    "description": "Just a test file.",
+    "description": "Just an example",
     "type": "component",
     "homepage": "http://gros.es",
     "license": "MIT",
@@ -9,17 +9,16 @@
     },
     "authors": [
         {
-            "name": "Ignacio Gros",
-            "email": "ignacio@gros.es"
+            "name": "Ignacio"
         }
     ],
-    "require": {
-        "robloach/component-installer": "*"
-    },
     "extra": {
         "component": {
             "scripts": [
                 "test-file.js"
+            ],
+            "files": [
+                "test-file.map"
             ]
         }
     }

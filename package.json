@@ -1,0 +1,32 @@
+{
+    "name": "composer-tests",
+    "description": "Just an example",
+    "version": "1.0",
+    "homepage": "http://gros.es",
+    "author": {
+        "name": "Ignacio Gros"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/ignaciogros/composer-tests.git"
+    },
+    "keywords": [
+        "jquery",
+        "javascript",
+        "browser",
+        "library"
+    ],
+    "bugs": {
+        "url": "https://github.com/ignaciogros/composer-tests/issues"
+    },
+    "licenses": [
+        {
+            "type": "MIT",
+            "url": "https://github.com/jquery/jquery/blob/master/LICENSE.txt"
+        }
+    ],
+    "spm": {
+        "main": "test-file.js"
+    }
+}
+

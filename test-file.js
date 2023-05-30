@@ -1,2 +1,2 @@
-// Test file
-alert("Test file");
+// Example file
+alert("Example");
