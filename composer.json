@@ -3,5 +3,10 @@
     "type": "library",
     "description": "Just an example",
     "license": "MIT",
-    "minimum-stability": "dev"
+    "minimum-stability": "dev",
+    "autoload": {
+        "files": [
+            "test-file.js"
+        ]
+    }    
 }
