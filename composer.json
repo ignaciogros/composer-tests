@@ -1,25 +1,12 @@
 {
     "name": "ignaciogros/composer-tests",
     "description": "Just an example",
-    "type": "component",
-    "homepage": "http://gros.es",
-    "license": "MIT",
-    "support": {
-        "source": "https://github.com/ignaciogros/composer-tests"
-    },
-    "authors": [
-        {
-            "name": "Ignacio"
-        }
-    ],
-    "extra": {
-        "component": {
-            "scripts": [
-                "test-file.js"
-            ],
-            "files": [
-                "test-file.map"
-            ]
-        }
-    }
+    "minimum-stability": "stable",
+    "license": "Apache-2.0",
+    "version": "1.0",
+    "type": "project",
+    "prefer-stable": true,
+    "bin": [
+        "test-file.js"
+    ]
 }
