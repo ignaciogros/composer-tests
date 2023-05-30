@@ -1,0 +1,6 @@
+{
+    "name": "ignaciogros/composer-tests",
+    "require": {
+        "ignaciogros/composer-tests": "dev-master"
+    }
+}
