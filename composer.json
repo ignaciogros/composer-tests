@@ -1,13 +1,26 @@
 {
     "name": "ignaciogros/composer-tests",
-    "type": "library",
-    "version": "1.0",
-    "description": "Just an example",
+    "description": "Just a test file.",
+    "type": "component",
+    "homepage": "http://gros.es",
     "license": "MIT",
-    "minimum-stability": "dev",
-    "autoload": {
-        "files": [
-            "test-file.js"
-        ]
-    }    
+    "support": {
+        "source": "https://github.com/ignaciogros/composer-tests"
+    },
+    "authors": [
+        {
+            "name": "Ignacio Gros",
+            "email": "ignacio@gros.es"
+        }
+    ],
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "test-file.js"
+            ]
+        }
+    }
 }
